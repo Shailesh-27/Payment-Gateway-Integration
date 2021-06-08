@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.71)), url(../assets/donation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav{
+    top: 0;
+	height: 10vh;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+}
+h1{
+	margin: 20px;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	margin: 30px;
+}
+nav .navbar {
+	width: 45%;
+	display: flex;
+    padding-left: 800px;
+}
+button{
+    margin: 0px 20px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.donate{
+    background-color: tomato;
+}
+nav .navbar a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+nav .navbar a:hover{
+	color: green;
+}
+.container{
+    display: flex;
+    position: relative;
+}
+.con-item{
+    height: 560px;
+    width: 100%;
+    background: transparent;
+}
+.overlay-1{
+    background-color: rgba(0, 0, 255,0.1);
+}
+.overlay-2{
+    background-color: rgba(255, 0, 0,0.1);
+}
+.overlay-3{
+    background-color: rgba(0, 255, 255,0.1);
+}
+.overlay-4{
+    background-color: rgba(255,0, 255,0.1);
+}
+.main-text{
+    position:absolute;
+    top: 50%;
+    color: white;
+    left: 10%;
+}
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin-bottom: 5px;
+}
+.text{
+    font-size: 60px;
+}
+.button-1{
+    padding: 15px 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid tomato;
+    border-radius: 40px;
+    background-color: tomato;
+    margin-left: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button-1:hover{
+    background-color: transparent;
+}

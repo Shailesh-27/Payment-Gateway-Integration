@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.71)), url(../assets/helping.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.donation-page{
+    color: rgb(98, 59, 204);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border: 1px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form {
+    opacity: 1;
+    height: 50vh;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 10;
+} 
+h1{
+    margin: 0px 60px;
+}
+h3{
+    color: white
+}
